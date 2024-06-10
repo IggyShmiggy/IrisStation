@@ -300,13 +300,6 @@ GLOBAL_LIST_INIT(loadout_necks, generate_loadout_items(/datum/loadout_item/neck)
 	item_path = /obj/item/clothing/accessory/badge/holo/cord
 	restricted_roles = list(JOB_HEAD_OF_SECURITY, JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_DETECTIVE, JOB_CORRECTIONS_OFFICER)
 
-/*
-*	DONATOR
-*/
-
-/datum/loadout_item/neck/donator
-	donator_only = TRUE
-
-/datum/loadout_item/neck/donator/mantle/regal
+/datum/loadout_item/neck/mantle/regal
 	name = "Regal Mantle"
 	item_path = /obj/item/clothing/neck/mantle/regal
