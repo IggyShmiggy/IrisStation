@@ -931,6 +931,11 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
 	restricted_species = list(SPECIES_AKULA)
 
+/datum/loadout_item/under/formal/captain_black
+	name  = "Captains Black Uniform"
+	item_path = /obj/item/clothing/under/rank/captain/skyrat/black
+	restricted_roles = list(JOB_CAPTAIN)
+
 /datum/loadout_item/under/formal/azulea_oldblood/skirt
 	name = " Oldblood's Royal regalia (Skirt)"
 	item_path = /obj/item/clothing/under/rank/azulean/old_blood/skirt
@@ -952,8 +957,3 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 /// DONATOR
 /datum/loadout_item/under/donator
 	donator_only = TRUE
-
-/datum/loadout_item/under/donator/captain_black
-	name  = "Captains Black Uniform"
-	item_path = /obj/item/clothing/under/rank/captain/skyrat/black
-	restricted_roles = list(JOB_CAPTAIN)
